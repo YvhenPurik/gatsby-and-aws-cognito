@@ -3,7 +3,7 @@ import React from "react";
 import Header from "./header";
 import Sidebar from "./sidebar";
 
-let  Layout = (props) => (
+let  Layout = ({children}) => (
   <>
     <Header />
     
@@ -11,7 +11,7 @@ let  Layout = (props) => (
       style={{ margin: `0 auto`, maxWidth: 650, backgroundColor: `#eeeeee` }}
     >
       <Sidebar />
-      {props.children}
+      {children}
     </div>
   </>
 );
