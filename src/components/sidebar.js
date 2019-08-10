@@ -11,6 +11,9 @@ export default () => (
       <li>
         <Link to="/tutorial/part-one">Part #1</Link>
       </li>
+      <li>
+        <Link to="/tutorial/part-two">Part #2</Link>
+      </li>
     </ul>
   </div>
 );

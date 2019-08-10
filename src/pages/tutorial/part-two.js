@@ -1,12 +1,12 @@
 import React from "react";
 
 import Layout from "../../components/layout";
- let PartOne = () =>{
+ let PartTwo = () =>{
     return (
         <Layout>
-             <h1>Welcome to PartOne</h1>
+             <h1>Welcome to PartTwo</h1>
         </Layout>
        
     )
 } 
-export default PartOne
+export default PartTwo

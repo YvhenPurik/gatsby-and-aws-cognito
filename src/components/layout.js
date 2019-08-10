@@ -6,12 +6,12 @@ import Sidebar from "./sidebar";
 let  Layout = (props) => (
   <>
     <Header />
-    {props.children}
+    
     <div
       style={{ margin: `0 auto`, maxWidth: 650, backgroundColor: `#eeeeee` }}
     >
       <Sidebar />
-     
+      {props.children}
     </div>
   </>
 );
